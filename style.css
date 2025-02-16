@@ -1,0 +1,30 @@
+button {
+    background-color: gray; 
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.green {
+    background-color: green ;
+}
+
+.red {
+    background-color: red !important;
+
+}
+.blue {
+    background-color: blue;
+}
+
+
+#counter {
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: peru;
+}
