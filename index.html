@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
 </head>
 <body>
+    <div class="container">
+        <h2 class="title">Laptops</h2>
+        <div class="btns">
+            <button>All</button>
+            <button>Lenovo</button>
+            <button>Apple</button>
+            <button>Asus</button>
+        </div>
     
+        <p id="error-message" style="color: red;"></p>
+    
+        <form class="form">
+            <input type="text" id="brand" placeholder="Brand">
+            <input type="text" id="marka" placeholder="Marka">
+            <input type="text" id="ram" placeholder="RAM">
+            <input type="text" id="price" placeholder="Price">
+            <input type="text" id="imageUrl" placeholder="Image url">
+            <button class="create-button">Create</button>
+    
+        </form>
+    
+    
+        <div class="laptops-cards"></div>
+    
+    
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
