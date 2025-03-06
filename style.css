@@ -1,0 +1,158 @@
+.btns {
+    
+    gap: 10px; 
+
+    margin-bottom: 20px;
+}
+
+.btns button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    margin: 5px;
+}
+
+.btns button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.btns button:active {
+    background-color: #003f7f; 
+    transform: scale(0.95); /
+}
+
+
+.title{
+    margin: 0 auto;
+    color: peru;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    max-width: 200px;
+    
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    transition: all 0.3s ease; 
+}
+
+.form input:focus {
+    border-color: #007bff; /* Көк чек */
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.form button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #218838; 
+    transform: scale(1.05);
+}
+
+.form button:active {
+    background-color: #1e7e34;
+    transform: scale(0.95);
+}
+
+
+.laptops-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.laptop-card {
+ border: 1px solid #ddd;
+ padding: 10px;
+ margin: 10px;
+ width: 220px;
+ text-align: center;
+ display: inline-block;
+ border-radius: 10px;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+ .laptop-card img {
+  width: 200px; 
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 5px;
+    }
+
+.price{
+    color:rgb(74, 153, 159);
+    font-weight: 700;
+}
+
+
+.brand{
+    color: blue;
+}
+
+.del{
+padding: 5px;
+border-radius: 5px;
+cursor: pointer;
+color: #ccc;
+background-color: #007bff;
+border: 0cap;
+font-size: 18px;
+}
+
+
+.laptop-card {
+  position: relative; 
+}
+
+.heart {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  background: transparent; 
+  border: none; 
+  cursor: pointer; 
+}
+
+
+
+
+
