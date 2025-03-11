@@ -1,0 +1,27 @@
+input {
+            
+            padding: 6px 8px;
+            border: 2px solid #007BFF;
+            border-radius: 8px;
+            outline: none;
+            font-size: 16px;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        input:focus {
+            border-color: #0056b3;
+            box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+        }
+
+
+        .find {
+            width: 70px;
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    padding: 8px 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 8px;
+}
